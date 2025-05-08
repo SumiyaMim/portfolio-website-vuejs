@@ -32,7 +32,7 @@
                     </li>
                 </ul>
                 <button @click="toggleDarkMode" class="text-white ml-10 z-10 hidden md:block">
-                    <!-- Show  moon icon if dark mode is off, otherwise show sun icon -->
+                    <!-- Show moon icon if dark mode is off, otherwise show sun icon -->
                     <Icon v-if="!isDarkMode" icon="line-md:moon-filled" class="text-4xl text-primary"/>
                     <Icon v-else icon="line-md:sunny-outline" class="text-4xl text-secondary"/>
                 </button>
