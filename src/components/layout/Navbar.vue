@@ -1,4 +1,4 @@
-<template lang="">
+<template>
     <header>
         <div class='flex justify-between items-center px-8 lg:px-12 py-8 relative z-20'>
             <div class="dark:text-white text-primary text-2xl lg:text-3xl font-bold">LOGO</div>

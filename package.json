@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@iconify/vue": "^5.0.0",
+    "aos": "^2.3.4",
     "vue": "^3.4.15"
   },
   "devDependencies": {
