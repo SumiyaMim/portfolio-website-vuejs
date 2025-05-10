@@ -39,7 +39,7 @@
 </template>
 
 <script setup>
-import Button from '../UI/Button.vue';
+import Button from '@/components/UI/Button.vue';
 </script>
 
 <style scoped>

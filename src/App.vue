@@ -3,6 +3,7 @@
         <Navbar/>
         <Hero/>
         <Counter/>
+        <Services/>
     </div>
 </template>
 
@@ -13,4 +14,5 @@
     const Navbar = defineAsyncComponent(() => import('@/components/layout/Navbar.vue'));
     const Hero = defineAsyncComponent(() => import('@/components/layout/Hero.vue'));
     const Counter = defineAsyncComponent(() => import('@/components/layout/Counter.vue'));
+    const Services = defineAsyncComponent(() => import('@/components/layout/Services.vue'));
 </script>
