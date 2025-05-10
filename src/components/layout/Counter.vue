@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-20 md:mt-52 lg:mt-0 w-full relative text-white flex justify-center">
+    <section class="mt-32 md:mt-52 lg:mt-0 w-full relative text-white flex justify-center">
         <header class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#00c6cc] via-[#785ae4] to-secondary opacity-30 dark:opacity-20 blur-[100px] left-10 top-0 hidden md:block">
         </header>
         <header class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#00c6cc] via-[#785ae4] to-secondary opacity-30 dark:opacity-20 blur-[100px] left-10 top-0 hidden md:block">
