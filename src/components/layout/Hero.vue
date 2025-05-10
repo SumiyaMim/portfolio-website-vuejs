@@ -12,9 +12,9 @@
                 <p class="text-lg max-w-xl mx-auto lg:mx-0 font-semibold">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto totam illum quas, ut amet nobis, debitis culpa aliquid omnis repudiandae excepturi libero non eos cupiditate at corrupti ex eius officia.
                 </p>
-                <div class="mt-6 flex justify-center lg:justify-start">
+                <div class="mt-6 flex justify-center items-center lg:justify-start">
                     <Button label="Hire Me"/>
-                    <a href="" class="font-semibold text-lg w-[10rem] h-[55px] dark:text-secondary rounded-full ml-2 border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent flex justify-center items-center text-primary border-primary">
+                    <a href="" class="font-semibold text-lg w-[10rem] h-[58px] dark:text-secondary rounded-full ml-4 border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent flex justify-center items-center text-primary border-primary">
                         <Icon icon="line-md:download-loop" class="text-3xl"/>
                         <span class="ml-1">Resume</span>
                     </a>
