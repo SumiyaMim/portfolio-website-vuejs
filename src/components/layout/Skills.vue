@@ -24,49 +24,49 @@ const skills = ref([
     {
         percentage: 98,
         title: 'Figma',
-        bgGradient: 'to-[#acac39] from [#1f1e1c99]',
+        bgGradient: 'to-[#acac39] from-[#1f1e1c99]',
         textColor: '#FFE600'
     },
     {
         percentage: 92,
         title: 'Java',
-        bgGradient: 'to-[#59c337899] from [#1f1e1c99]',
+        bgGradient: 'to-[#59c37899] from-[#1f1e1c99]',
         textColor: '#59c378'
     },
     {
         percentage: 88,
         title: 'Photoshop',
-        bgGradient: 'to-[#dd584f99] from [#1f1e1c99]',
+        bgGradient: 'to-[#dd584f99] from-[#1f1e1c99]',
         textColor: '#dd584f'
     },
     {
         percentage: 72,
         title: 'Python',
-        bgGradient: 'to-[#ff9a0099] from [#1f1e1c99]',
+        bgGradient: 'to-[#ff9a0099] from-[#1f1e1c99]',
         textColor: '#ff9a00'
     },
     {
         percentage: 45,
         title: 'Wordpress',
-        bgGradient: 'to-[#00a9ff99] from [#1f1e1c99]',
+        bgGradient: 'to-[#00a9ff99] from-[#1f1e1c99]',
         textColor: '#00a9ff'
     },
     {
         percentage: 40,
         title: 'React',
-        bgGradient: 'to-[#9e00ff99] from [#1f1e1c99]',
+        bgGradient: 'to-[#9e00ff99] from-[#1f1e1c99]',
         textColor: '#ad00ff'
     },
     {
         percentage: 98,
         title: 'HTML',
-        bgGradient: 'to-[#acac39] from [#1f1e1c99]',
+        bgGradient: 'to-[#acac39] from-[#1f1e1c99]',
         textColor: '#ffe600'
     },
     {
         percentage: 92,
         title: 'Javascript',
-        bgGradient: 'to-[#59c37899] from [#1f1e1c99]',
+        bgGradient: 'to-[#59c37899] from-[#1f1e1c99]',
         textColor: '#59c378'
     },
 ])
