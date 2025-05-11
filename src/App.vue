@@ -4,6 +4,7 @@
         <Hero/>
         <Counter/>
         <Services/>
+        <Skills/>
     </div>
 </template>
 
@@ -15,4 +16,5 @@
     const Hero = defineAsyncComponent(() => import('@/components/layout/Hero.vue'));
     const Counter = defineAsyncComponent(() => import('@/components/layout/Counter.vue'));
     const Services = defineAsyncComponent(() => import('@/components/layout/Services.vue'));
+    const Skills = defineAsyncComponent(() => import('@/components/layout/Skills.vue'));
 </script>
