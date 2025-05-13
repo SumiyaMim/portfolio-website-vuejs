@@ -1,7 +1,7 @@
 <template>
     <section class="mt-40" id="contact">
         <SectionHeader title="Contact Me"/>
-        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <div class="py-8 lg:py-16 px-8 mx-auto max-w-screen-md">
             <form class="space-y-8">
                 <div v-for="(item, index) in inputs" :key="index">
                     <Input
