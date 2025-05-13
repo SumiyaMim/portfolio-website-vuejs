@@ -8,6 +8,7 @@
         <Whyme/>
         <Projects/>
         <Contact/>
+        <Footer/>
     </div>
 </template>
 
@@ -23,4 +24,5 @@
     const Whyme = defineAsyncComponent(() => import('@/components/layout/Whyme.vue'));
     const Projects = defineAsyncComponent(() => import('@/components/layout/Projects.vue'));
     const Contact = defineAsyncComponent(() => import('@/components/layout/Contact.vue'));
+    const Footer = defineAsyncComponent(() => import('@/components/layout/Footer.vue'));
 </script>
