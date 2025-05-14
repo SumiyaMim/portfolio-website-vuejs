@@ -3,6 +3,6 @@
 Live Link: 
 
 ## Technology
-- [https://v2.tailwindcss.com/docs/guides/vue-3-vite](Vue.js)
+- [Vue.js](https://v2.tailwindcss.com/docs/guides/vue-3-vite)
 - Tailwind CSS
-- Packages: [https://www.npmjs.com/package/vue-countup-v3](vue-countup-v3), [https://swiperjs.com/vue](swiper), [https://michalsnik.github.io/aos/](aos)
+- Packages: [vue-countup-v3](https://www.npmjs.com/package/vue-countup-v3), [swiper](https://swiperjs.com/vue), [aos](https://michalsnik.github.io/aos/)
