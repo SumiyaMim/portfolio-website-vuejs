@@ -1,15 +1,27 @@
 <template>
     <div class="bg-[#D4EBF8] dark:bg-[#080326] min-h-screen">
-        <Navbar/>
-        <Hero/>
-        <Counter/>
-        <Services/>
-        <Skills/>
-        <Whyme/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
-        <BackToTop/>
+        <Suspense>
+            <template #default>
+                <div>
+                    <Navbar/>
+                    <Hero/>
+                    <Counter/>
+                    <Services/>
+                    <Skills/>
+                    <Whyme/>
+                    <Projects/>
+                    <Contact/>
+                    <Footer/>
+                    <BackToTop/>
+                </div>
+            </template>
+
+            <template #fallback>
+                <div class="flex justify-center items-center min-h-screen">
+                    <LoadingSpinner/>
+                </div>
+            </template>
+        </Suspense>
     </div>
 </template>
 
@@ -27,4 +39,13 @@
     const Contact = defineAsyncComponent(() => import('@/components/layout/Contact.vue'));
     const Footer = defineAsyncComponent(() => import('@/components/layout/Footer.vue'));
     const BackToTop = defineAsyncComponent(() => import('@/components/layout/BackToTop.vue'));
+
+    import LoadingSpinner from '@/components/layout/LoadingSpinner.vue';
 </script>
+
+<style>
+*{
+    scrollbar-width: thin;
+    scrollbar-color: #111827 #f1f1f1;
+}
+</style>
