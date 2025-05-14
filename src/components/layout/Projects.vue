@@ -128,6 +128,9 @@ const projects = ref([
 }
 </style>
 
+
+<!-- !!! Important -->
+ 
 <!-- These lines not work for hosting -->
 <!-- :image="'src/assets/images/'+project.image" -->  
 <!-- image: '/project1.jpg', -->
