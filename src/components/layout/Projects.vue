@@ -32,7 +32,7 @@
             <ProjectCard
             :title="project.title"
             :description="project.description"
-            :image="'src/assets/images/'+project.image"
+            :image="project.image"
             :tags="project.tags"
             :liveLink="project.liveLink"
             :codeLink="project.codeLink"
@@ -53,6 +53,11 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import { EffectCoverflow, Navigation } from 'swiper/modules';
 import { ref } from 'vue';
 
+// Import image statically
+import project1 from '@/assets/images/project1.jpg';
+import project2 from '@/assets/images/project2.jpg';
+import project3 from '@/assets/images/project3.jpg';
+
 // Define navigation options
 const navigationOptions = {
     prevEl:'.swiper-prev',
@@ -63,7 +68,7 @@ const projects = ref([
     {
         title: 'Portfolio Website',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sint!',
-        image: '/project1.jpg',
+        image: project1,
         tags:['HTML', 'CSS', 'Javascript'],
         liveLink: '/',
         codeLink: '/'
@@ -71,7 +76,7 @@ const projects = ref([
     {
         title: 'Portfolio Website',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sint!',
-        image: '/project2.jpg',
+        image: project2,
         tags:['HTML', 'CSS', 'Javascript'],
         liveLink: '/',
         codeLink: '/'
@@ -79,7 +84,7 @@ const projects = ref([
     {
         title: 'Portfolio Website',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sint!',
-        image: '/project3.jpg',
+        image: project3,
         tags:['HTML', 'CSS', 'Javascript'],
         liveLink: '/',
         codeLink: '/'
@@ -87,7 +92,7 @@ const projects = ref([
     {
         title: 'Portfolio Website',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sint!',
-        image: '/project1.jpg',
+        image: project1,
         tags:['HTML', 'CSS', 'Javascript'],
         liveLink: '/',
         codeLink: '/'
@@ -95,7 +100,7 @@ const projects = ref([
     {
         title: 'Portfolio Website',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sint!',
-        image: '/project2.jpg',
+        image: project2,
         tags:['HTML', 'CSS', 'Javascript'],
         liveLink: '/',
         codeLink: '/'
@@ -103,7 +108,7 @@ const projects = ref([
     {
         title: 'Portfolio Website',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sint!',
-        image: '/project3.jpg',
+        image: project3,
         tags:['HTML', 'CSS', 'Javascript'],
         liveLink: '/',
         codeLink: '/'
@@ -122,3 +127,12 @@ const projects = ref([
     align-items: center;
 }
 </style>
+
+<!-- These lines not work for hosting -->
+<!-- :image="'src/assets/images/'+project.image" -->  
+<!-- image: '/project1.jpg', -->
+
+<!-- Thats why I used these lines. Import image statically and then use it -->
+<!-- :image="project.image" -->
+<!-- import project1 from '@/assets/images/project1.jpg'; -->
+<!-- image: project1, -->
