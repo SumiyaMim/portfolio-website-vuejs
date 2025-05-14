@@ -2,10 +2,10 @@
     <section id="projects" class="relative w-11/12 px-16 mt-28 mx-auto">
         <SectionHeader title="My Projects"/>
         <!-- Custom Navigation Buttons -->
-        <button class="swiper-prev absolute top-2/3 left-4 transform -translate-y-1/2 z-10 text-white dark:bg-secondary bg-primary p-4 rounded-full">
+        <button class="swiper-prev absolute top-2/3 left-4 transform -translate-y-1/2 z-10 text-white dark:text-primary dark:bg-secondary bg-primary p-4 rounded-full">
             <Icon icon="line-md:arrow-left" class="font-bold text-3xl"/>
         </button>
-        <button class="swiper-next absolute top-2/3 right-4 transform -translate-y-1/2 z-10 text-white dark:bg-secondary bg-primary p-4 rounded-full">
+        <button class="swiper-next absolute top-2/3 right-4 transform -translate-y-1/2 z-10 text-white dark:text-primary dark:bg-secondary bg-primary p-4 rounded-full">
             <Icon icon="line-md:arrow-right" class="font-bold text-3xl"/>
         </button>
 
